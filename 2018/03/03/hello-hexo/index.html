@@ -40,7 +40,7 @@
         <!--navbar-->
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-	  <img src="/" width="87" height="18"></a>
+	  <img src="/logo.png" width="87" height="18"></a>
             <!--<a class="navbar-item" href="/"><strong>[SAN SAN FOOTBALL]</strong></a>-->
 
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -66,6 +66,22 @@
         </a>
                     <div class="navbar-dropdown is-boxed">
                         
+                            <a href="/" class="navbar-item">
+                                Home
+                            </a>
+                            
+                            <a href="/archives" class="navbar-item">
+                                Archive
+                            </a>
+                            
+                            <a href="/Life" class="navbar-item">
+                                Life
+                            </a>
+                            
+                            <a href="/about" class="navbar-item">
+                                About
+                            </a>
+                            
                     </div>
                 </div>
             </div>
@@ -111,6 +127,24 @@
 			  
     		  </article>	
     		  
+<section class="comments" id="comments">
+    <div id="gitment_thread"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+        	id: 'window.location.pathname',
+            owner: '',
+            repo: '',
+            oauth: {
+                client_id: '',
+                client_secret: '',
+            },
+        })
+        gitment.render('comments')
+    </script>
+</section>
+
     		</div>
     	</div>
     </div>
@@ -123,7 +157,7 @@
         <div class="content has-text-centered">
             <p>
                 Last updated :
-                星期日, 三月 4日 2018, 11:42:21 中午 by <strong></strong>
+                星期日, 三月 4日 2018, 11:46:02 中午 by <strong>SAN SAN FOOTBALL</strong>
             </p>
             <p>- Enjoy Your Life -</p>
         </div>
